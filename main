@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Mẫu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0073e6;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chào Mừng Đến Với Trang Web Của Tôi</h1>
+    </header>
+
+    <nav>
+        <a href="#">Trang Chủ</a>
+        <a href="#">Giới Thiệu</a>
+        <a href="#">Dịch Vụ</a>
+        <a href="#">Liên Hệ</a>
+    </nav>
+
+    <main>
+        <h2>Tiêu Đề Chính</h2>
+        <p>Đây là một đoạn văn mẫu trong phần nội dung chính của trang web.</p>
+        <p>Bạn có thể thêm các phần tử HTML khác như hình ảnh, bảng biểu, hoặc danh sách ở đây.</p>
+    </main>
+
+    <footer>
+        &copy; 2024 Trang Web Mẫu. Bản quyền thuộc về tác giả.
+    </footer>
+</body>
+</html>
